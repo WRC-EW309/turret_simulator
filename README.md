@@ -21,7 +21,6 @@ In order to most easily recevie updates to the software package it is best pract
 1. Open github desktop
 1. Under the File tab select 'clone repository'
 1. Click the URL tab and paste the repository link (https://github.com/WRC-EW309/turret_simulator.git) in the url field and click the clone button.
-1. By default it will clone the repository to C:\Users\'username'\Documents\Github\
 1. By default it will clone the repository to C:\Users\<username>\Documents\Github\
 
 ## Understanding the Code
