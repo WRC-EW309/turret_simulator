@@ -1,4 +1,6 @@
 # turret_simulator
+# EW309 Turret Simulator
+This repository includes the code for the EW309 Turret Simulator. The simulator is built using CoppeliaSim (https://www.coppeliarobotics.com/). CoppeliaSim uses scene files to describe the simulation environment and the objects within it. CoppeliaSim provides an external programming API via a ZeroMQ server that runs whenever the application is running. To interface with the CoppeliaSim simulation, external interface code can be written to make api function calls to the ZeroMQ server. This simulator is not intended to be an exact 1 to 1 replacement for the turret but should allow the student to work on algorithmic aspect of their project without needing the physical system. **You must still use your critical thinking skills to determine what things will and will not translate to the real world**
 
 # Installation
 
@@ -20,6 +22,7 @@ In order to most easily recevie updates to the software package it is best pract
 1. Under the File tab select 'clone repository'
 1. Click the URL tab and paste the repository link (https://github.com/WRC-EW309/turret_simulator.git) in the url field and click the clone button.
 1. By default it will clone the repository to C:\Users\'username'\Documents\Github\
+1. By default it will clone the repository to C:\Users\<username>\Documents\Github\
 
 ## Understanding the Code
 1. 'turret_scene.ttt' is the CoppeliaSim scene file that must be loaded from within the CoppeliaSim application.
