@@ -60,6 +60,9 @@ There are two commands to get feedback from the turret
 ```
 ## Running Turret Demo Program
 Provided with the repository is an example program that demonstrates the basic functionality of actuating the turret, firing the turret, getting angle feedback from the IMU, and the camera feed. 
+1. From CoppeliaSim open the **turret_scene.ttt** file.
 1. From within anaconda navigator open VScode or Pycharm to ensure that the environment is loaded
+1. Open the folder for the repository make sure both the **turret_demo.py** and **turret_interface.py** files are there
+1. Run the **turret_demo.py** program. You should see the simulation begin, the turret with oscilate back and forth periodically shooting rounds.
 
 
