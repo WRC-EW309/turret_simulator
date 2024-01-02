@@ -45,7 +45,7 @@ It should be noted that these steps would likely not have analog function calls 
 
 There are two commands that are used to actuate the simulated turret:
 ```
-    turret.send_motor_command(pitch_cmd,yaw_cmd)   # Send Motor command to Sim
+    turret.send_motor_command(pitch_pwm,yaw_pwm)   # Send Motor pwm command to Sim
     turret.send_fire_command()  # Send Fire Command for 1 Round
 
 ```

@@ -32,7 +32,7 @@ def main():
 
         # Set Sinusoidal commands for Yaw and Pitch Motors
         T = 5
-        yaw_cmd = 0.2*math.sin(2*math.pi*t/T + math.pi/2)   
+        yaw_cmd = 0.2*math.sin(2*math.pi*t/T)   
         pitch_cmd = 0.2*math.cos(2*math.pi*t/T)
 
         
